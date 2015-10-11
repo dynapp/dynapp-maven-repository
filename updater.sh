@@ -13,6 +13,7 @@ mv temp/classes.jar robotcore-latest.jar
 read -p "Version: " version 
 mvn install:install-file -DgroupId=com.qualcomm -DartifactId=robotcore -Dversion=$version -Dpackaging=jar -Dfile=robotcore-latest.jar -DlocalRepositoryPath=repo
 rm -rf temp
+sed -e "s/\${version}/$version/" readme.template > README.md
 
 if ! git diff-index --quiet HEAD --; then
 	echo "Code changes detected!"
