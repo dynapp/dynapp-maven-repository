@@ -6,7 +6,7 @@ Added the following repository to your maven list. The available versions are av
 ```
 <repository>
     <id>com.qualcomm.robotcore</id>
-    <name>Robocore</name>
+    <name>Robotcore</name>
     <url>https://raw.githubusercontent.com/dynapp/robot-core/master/repo/</url>
 </repository>
 ```
