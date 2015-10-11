@@ -21,7 +21,7 @@ if ! git diff-index --quiet HEAD --; then
 		echo "Updating..."
 		git add .
 		git commit -m "Updated Code..."
-		git push master
+		git push
 	else
 		echo "Canceling update..."
 	fi
