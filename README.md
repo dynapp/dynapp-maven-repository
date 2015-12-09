@@ -15,7 +15,7 @@ Add this to your dependency list. When updating your code you must change the va
 <dependency>
 	<groupId>com.qualcomm</groupId>
 	<artifactId>robotcore</artifactId>
-	<version>15.10.06.002</version>
+	<version>15.11.04.001</version>
 </dependency>
 ```
 
@@ -23,7 +23,7 @@ Add this to your dependency list. When updating your code you must change the va
 If you would prefer to direct download the robotcore opposed from using maven you can goto this link:  [Here](https://github.com/dynapp/robot-core/raw/master/robotcore-latest.jar) It is not recommended you use this system because it is very easy to lose track of the current module version; however, if it suits your needs we have provided the option.
 
 ## Latest Version
-15.10.06.002
+15.11.04.001
 
 ## Licensee
 MIT Licensee
